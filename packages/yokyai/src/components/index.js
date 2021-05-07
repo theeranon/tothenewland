@@ -32,6 +32,10 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
+        <meta
+          name="simpledcver"
+          content="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0b3RoZW5ld2xhbmQuY29tIiwiZXhwIjoxNjIwOTUwNDAwfQ.kIUizoJ0OmzPVVaDYq7ghvmV-MRW5iI04wfVfY67x_w"
+        />
       </Head>
 
       {/* Accessibility: Provides ability to skip to main content */}
