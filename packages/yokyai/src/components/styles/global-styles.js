@@ -68,11 +68,8 @@ const documentSetup = (colors) => css`
     background: ${colors.bodyBg};
     box-sizing: border-box;
     color: #000;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-      Helvetica, sans-serif;
+    font-family: "Anuphan", sans-serif;
     font-size: 1.8rem;
-    letter-spacing: -0.015em;
-    text-align: left;
   }
 
   *,

@@ -1,44 +1,36 @@
 import { Global, css, connect } from "frontity";
-import InterMedium from "../../fonts/inter/Inter-Medium.woff2";
-import InterBold from "../../fonts/inter/Inter-Bold.woff2";
-import InterSemiBold from "../../fonts/inter/Inter-SemiBold.woff2";
-import InterMediumUS from "../../fonts/inter/Inter-Medium-US-ASCII.woff2";
-import InterBoldUS from "../../fonts/inter/Inter-Bold-US-ASCII.woff2";
-import InterSemiBoldUS from "../../fonts/inter/Inter-SemiBold-US-ASCII.woff2";
-import InterMediumLatin from "../../fonts/inter/Inter-Medium-LATIN.woff2";
-import InterBoldLatin from "../../fonts/inter/Inter-Bold-LATIN.woff2";
-import InterSemiBoldLatin from "../../fonts/inter/Inter-SemiBold-LATIN.woff2";
+import AnuphanReg from "../../fonts/anuphan/anuphan.woff2";
+import AnuphanMedium from "../../fonts/anuphan/anuphan-medium.woff2";
+import AnuphanBold from "../../fonts/anuphan/anuphan-bold.woff2";
 
 const fonts = {
-  "us-ascii": [InterMediumUS, InterSemiBoldUS, InterBoldUS],
-  latin: [InterMediumLatin, InterSemiBoldLatin, InterBoldLatin],
-  all: [InterMedium, InterSemiBold, InterBold],
+  heading: [AnuphanReg, AnuphanMedium, AnuphanBold],
 };
 
 const FontFace = ({ state }) => {
-  const font = fonts[state.theme.fontSets] || fonts["all"];
+  const font = fonts["heading"];
 
   return (
     <Global
       styles={css`
         @font-face {
-          font-family: "Inter";
+          font-family: "Anuphan";
           font-style: normal;
-          font-weight: 500;
+          font-weight: 400;
           font-display: "swap";
           src: url(${font[0]}) format("woff2");
         }
 
         @font-face {
-          font-family: "Inter";
+          font-family: "Anuphan";
           font-style: normal;
-          font-weight: 600;
+          font-weight: 500;
           font-display: "swap";
           src: url(${font[1]}) format("woff2");
         }
 
         @font-face {
-          font-family: "Inter";
+          font-family: "Anuphan";
           font-style: normal;
           font-weight: 700;
           font-display: "swap";

@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://test.frontity.org",
       title: "To The New Land",
-      description: "WordPress installation for Frontity development",
+      description: "ตัวอย่างเว็บไซต์สร้างจาก WordPress และ Frontity",
     },
   },
   packages: [
@@ -13,11 +13,11 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/"],
-            ["Nature", "/category/nature/"],
-            ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"],
+            ["หน้าแรก", "/"],
+            ["ธรรมชาติ", "/category/nature/"],
+            ["ท่องเที่ยว", "/category/travel/"],
+            ["ญี่ปุ่น", "/tag/japan/"],
+            ["เกี่ยวกับเรา", "/about-us/"],
           ],
           featured: {
             showOnList: false,

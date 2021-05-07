@@ -6,7 +6,7 @@ const Header = ({ label, children, labelColor }) => {
     <ArchiveHeader>
       <ArchiveHeaderInner>
         <ArchiveTitle>
-          <ColoredText color={labelColor}>{label}: </ColoredText>
+          {/* <ColoredText color={labelColor}>{label}: </ColoredText> */}
           {children}
         </ArchiveTitle>
       </ArchiveHeaderInner>
@@ -30,13 +30,13 @@ const ArchiveHeader = styled.header`
 const ArchiveHeaderInner = SectionContainer;
 
 const ArchiveTitle = styled.h1`
-  font-size: 2.4rem;
+  font-size: 3.6rem;
   font-weight: 700;
   letter-spacing: -0.026666667em;
   margin: 0;
 
   @media (min-width: 700px) {
-    font-size: 3.2rem;
+    font-size: 6.4rem;
   }
 `;
 
