@@ -1,0 +1,25 @@
+{
+  "name": "yokyai",
+  "version": "1.0.0",
+  "description": "For To The New Land Project",
+  "keywords": [
+    "frontity",
+    "frontity-theme",
+    "wordpress"
+  ],
+  "homepage": "https://tothenewland.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theeranon/tothenewland.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theeranon/tothenewland/issues"
+  },
+  "dependencies": {
+    "@frontity/components": "^1.7.2",
+    "@frontity/html2react": "^1.6.1",
+    "frontity": "^1.15.0",
+    "react-spring": "^8.0.27"
+  }
+}
