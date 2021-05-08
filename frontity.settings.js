@@ -14,10 +14,9 @@ const settings = {
         theme: {
           menu: [
             ["หน้าแรก", "/"],
-            ["ธรรมชาติ", "/category/nature/"],
-            ["ท่องเที่ยว", "/category/travel/"],
-            ["ญี่ปุ่น", "/tag/japan/"],
-            ["เกี่ยวกับเรา", "/about/"],
+            ["Story", "/category/story/"],
+            ["About", "/about/"],
+            ["Contact", "/contact/"],
           ],
           featured: {
             showOnList: false,
@@ -30,7 +29,8 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          url: "https://ongkorn.seeddemo.com/",
+          url: "https://team.tothenewland.com/",
+          homepage: "/home",
         },
       },
     },
