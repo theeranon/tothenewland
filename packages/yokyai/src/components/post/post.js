@@ -88,8 +88,8 @@ const Post = ({ state, actions, libraries }) => {
               dangerouslySetInnerHTML={{ __html: post.caption.rendered }}
             />
           )}
-          {/* The post's metadata like author, publish date, and comments */}
-          <PostMeta item={post} />
+          {/* The post's metadata like author, publish date, and comments. Show only Post, not Page. */}
+          {post.categories && <PostMeta item={post} />}
         </SectionContainer>
       </Header>
 
