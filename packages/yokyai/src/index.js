@@ -33,9 +33,9 @@ const yokyai = {
       // Menu links to display in the header
       menu: [],
       // State for the menu on mobile
-      isMobileMenuOpen: false,
+      isMobileMenuOpen: true,
       // State for the search modal on mobile
-      isSearchModalOpen: false,
+      isSearchModalOpen: true,
       // Whether to show all post content or only excerpt (summary) in archive view
       showAllContentOnArchive: false,
       // Settings for the featured media (image or video)
