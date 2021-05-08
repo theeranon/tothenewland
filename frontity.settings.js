@@ -2,7 +2,7 @@ const settings = {
   name: "tothenewland",
   state: {
     frontity: {
-      url: "https://test.frontity.org",
+      url: "https://tothenewland.com/",
       title: "To The New Land",
       description: "ตัวอย่างเว็บไซต์สร้างจาก WordPress และ Frontity",
     },
@@ -14,10 +14,9 @@ const settings = {
         theme: {
           menu: [
             ["หน้าแรก", "/"],
-            ["ธรรมชาติ", "/category/nature/"],
-            ["ท่องเที่ยว", "/category/travel/"],
-            ["ญี่ปุ่น", "/tag/japan/"],
-            ["เกี่ยวกับเรา", "/about-us/"],
+            ["Story", "/category/story/"],
+            ["About", "/about/"],
+            ["Contact", "/contact/"],
           ],
           featured: {
             showOnList: false,
@@ -30,7 +29,8 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          url: "https://test.frontity.org",
+          url: "https://team.tothenewland.com/",
+          homepage: "/home",
         },
       },
     },
